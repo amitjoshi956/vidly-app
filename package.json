@@ -1,0 +1,36 @@
+{
+  "name": "vidly",
+  "version": "1.0.0",
+  "description": "Dummy video rental app",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest --watchAll --verbose --coverage",
+    "start": "node app.js"
+  },
+  "engines": {
+    "node": "12.13.1"
+  },
+  "author": "amitjoshi956",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.7",
+    "compression": "^1.7.4",
+    "config": "^3.2.6",
+    "express": "^4.17.1",
+    "express-async-errors": "^3.1.1",
+    "fawn": "^2.1.5",
+    "helmet": "^3.21.2",
+    "joi": "^14.3.1",
+    "joi-objectid": "^3.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.15",
+    "moment": "^2.24.0",
+    "mongoose": "^5.9.2",
+    "winston": "^2.4.4",
+    "winston-mongodb": "^5.0.1"
+  },
+  "devDependencies": {
+    "jest": "^25.1.0",
+    "supertest": "^4.0.2"
+  }
+}
